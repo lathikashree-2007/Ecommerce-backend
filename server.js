@@ -2,7 +2,7 @@ require('dotenv').config(); // Load hidden credentials from your .env file
 const express = require('express');
 const cors = require('cors');
 const mongoose = require('mongoose');
-const Product = require('./models/product'); // Import your Mongoose blueprint
+const Product = require('./models/Product'); // Import your Mongoose blueprint
 
 const app = express();
 
