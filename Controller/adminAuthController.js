@@ -1,4 +1,4 @@
-const Admin = require('../models/AdminModel'); // Double check if your folder is named "models" or "Models"
+const Admin = require('../Models/AdminModel'); // Double check if your folder is named "models" or "Models"
 const jwt = require('jsonwebtoken');
 
 // 🛡️ 1. REGISTER ROOT CONTROLLER
